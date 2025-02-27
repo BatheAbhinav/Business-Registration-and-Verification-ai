@@ -37,11 +37,11 @@ if uploaded_file is not None:
                 "Timestamp": business['input_business']['timestamp'],
                 "Features": ", ".join(business['input_business']['features']),
                 "Matched Place Name": place['name'],
-                "Normalized Name": place['normalized_name'],
-                "Address": place['address'],
-                "Phone": place['phone'],
-                "Similarity Score": place['similarity_score'],
-                "Distance (meters)": place['distance']
+                #"Normalized Name": place['normalized_name'],
+                #"Address": place['address'],
+                #"Phone": place['phone'],
+                #"Similarity Score": place['similarity_score'],
+                #"Distance (meters)": place['distance']
             })
 
     # Display registered businesses in a table
